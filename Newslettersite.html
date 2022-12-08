@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+
+<head>
+
+ <title>Newsletter</title>
+ <meta charset="UTF-8">
+ <style>
+   
+   body{
+   margin: auto;
+   display: grid;
+   grid-template-columns: 100%;
+   grid-row: auto;
+   background: linear-gradient(100deg,#cfd9df,#e2ebf0);
+   background-size: 400%;
+   animation: gradient 4s ease infinite;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: white;
+   }
+
+   @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+  img {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  border-radius: 20px;
+  width: 600px;
+  height: 400px;
+   }
+
+   .btn{
+    padding: 15px 10px 15px 10px;
+    width: 150px;
+    background-color: rgb(222, 217, 217);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   }
+
+</style>
+</head>
+<body>
+ <h1>Thank you for joining our weekly Newsletter!</h1>
+  <img src="https://images.unsplash.com/photo-1586339949916-3e9457bef6d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="News Letter" title="Weekly Newsletter">
+  <div>
+   <h2>The weekly newsletter<br> provides you with all the latest trends in tech <br> and its ever widening impact on the world.</h2>
+  </div>
+  <div>
+   <button class="btn"><a style= "color:white; text-decoration:none;" href="Index.html">Return to home</a></button>
+  </div>
+</body>
+</html>

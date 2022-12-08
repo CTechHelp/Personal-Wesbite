@@ -1,0 +1,88 @@
+body{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background: url(pine.jpg);
+    background-size: contain;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.img{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.header-logo{
+    color: black;
+    background-color: linen;
+    opacity: 1;
+    display: grid;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.content{
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+    background-color: linen;
+    opacity: 0.8;
+    font-size: 17px;
+}
+.h2 {
+    justify-content: center;
+    text-align: center;
+}
+
+.footer{
+    margin: 0px 0px 0px 0px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: linen;
+    opacity: 1;
+    cursor: pointer;
+    font-size: medium;
+    display: grid;
+
+}
+
+.type{
+    padding: 13px 80px 13px 13px;
+    border: none;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    position: relative;
+}
+
+.btn{
+    padding: 13px 40px 13px 40px;
+    border: none;
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.btn:hover{
+    background-color: rgb(225, 197, 161);
+}
+.btn:active{
+    background-color: rgb(208, 185, 154);
+}
+
+/*NOTE: padding= amount of background space
+ height/width= amount of content space
+ margin= amount of space between two elements*
